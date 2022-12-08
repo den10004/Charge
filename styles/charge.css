@@ -1,0 +1,27 @@
+.charge {
+  background: url(../images/charge.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1096px;
+  height: 117px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+  .charge {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .charge {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .charge {
+    height: 45px;
+  }
+}

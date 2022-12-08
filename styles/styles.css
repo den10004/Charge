@@ -1,0 +1,107 @@
+@import "./header.css";
+@import "./charge.css";
+@import "./slider.css";
+@import "./discont.css";
+@import "./footer.css";
+@import "./normalize.css";
+@import "../vendor/fonts.css";
+
+html body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.fontReleway {
+  font-family: "Raleway";
+  font-style: normal;
+}
+
+li {
+  cursor: pointer;
+}
+
+.backgroundBlock {
+  margin: 0 auto;
+  width: 100%;
+  background: #131111;
+}
+
+.wrapColor {
+  margin: 0 auto;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.backgroundBlock__rings {
+  display: flex;
+  justify-content: space-between;
+  width: 1216px;
+  margin: -70px auto 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .backgroundBlock__rings {
+    width: 90%;
+  }
+}
+
+.backgroundBlock__rings-orange {
+  width: 674px;
+  height: 674px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #f64f00 0%,
+    rgba(246, 79, 0, 0) 100%
+  );
+  filter: blur(32px);
+}
+
+@media screen and (max-width: 1280px) {
+  .backgroundBlock__rings-orange {
+    width: 40%;
+    height: 404px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundBlock__rings-orange {
+    width: 40%;
+    height: 300px;
+  }
+}
+
+.backgroundBlock__rings-blue {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #0178f3 0%,
+    rgba(1, 120, 243, 0) 100%
+  );
+  filter: blur(32px);
+  width: 878px;
+  height: 445px;
+}
+
+@media screen and (max-width: 1280px) {
+  .backgroundBlock__rings-blue {
+    width: 60%;
+    height: 326px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundBlock__rings-blue {
+    width: 60%;
+    height: 226px;
+  }
+}

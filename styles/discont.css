@@ -1,0 +1,153 @@
+.discont {
+  padding-bottom: 156px;
+  display: flex;
+  justify-content: space-between;
+  width: 1570px;
+  margin: 117px auto 0 auto;
+}
+
+@media screen and (max-width: 1920px) {
+  .discont {
+    width: 1570px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .discont {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .discont {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discont {
+    margin-top: 50px;
+    padding-bottom: 70px;
+  }
+}
+
+.discont__left > h2 {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 104px;
+}
+
+.text-fill {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #bcbcbc;
+  font-weight: 700;
+}
+
+.discont__left > h2 > span {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 104px;
+}
+
+@media screen and (max-width: 655px) {
+  .discont__left > h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .discont__left > h2 > svg {
+    height: 45px;
+  }
+
+  .discont__left > h2 > span {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .discont__left > h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .discont__left > h2 > svg {
+    height: 25px;
+  }
+
+  .discont__left > h2 > span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.discont__left-subscribe {
+  margin-top: 40px;
+  width: 490px;
+  color: #bcbcbc;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .discont__left-subscribe {
+    width: 95%;
+  }
+}
+
+.discont__left-subscribe > input {
+  width: 445px;
+  border: none;
+  color: inherit;
+  outline: none;
+  border-bottom: 1px solid #7d7d7d;
+  opacity: 0.45;
+  background: transparent;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .discont__left-subscribe > input {
+    width: 95%;
+  }
+}
+
+.discont__left-subscribe > a {
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .discont__left-subscribe > a {
+    margin-top: 30px;
+  }
+}
+
+.discont__right {
+  width: 600px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .discont__right {
+    width: auto;
+  }
+  .discont__right > img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discont__subscribe {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .discont__subscribe {
+    width: 70px;
+    height: 70px;
+  }
+}
